@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+   version="4.0">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+        
+    </session-config>
+    <data-source>
+        <description>DataSource Heroku</description>
+        <name>vamoctm</name>
+        <class-name>org.postgresql.jdbc3.Jdbc3ConnectionPool</class-name>
+        <server-name>ec2-3-219-19-205.compute-1.amazonaws.com</server-name>
+        <port-number>5432</port-number>
+        <database-name>d8g69p099h5qbs</database-name>
+        <user>zsrpjpqvhfvomi</user>
+        <password>714c92fe473146f1121bbb40bf7a12dd898463aaaab09dae27e6dd86f73d0071</password>
+    </data-source>
+</web-app>
